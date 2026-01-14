@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "title": "Premium Chef Knife",
+    "description": "This high-quality chef knife is crafted from premium stainless steel. Perfect for chopping, slicing, and dicing all kinds of ingredients. Ergonomic handle ensures comfortable use for long cooking sessions. Ideal for professional chefs and home cooking enthusiasts.",
+    "image": "https://i.ibb.co.com/DfQZKYQ3/knife.jpg",
+    "price": 59.99,
+    "rating": 4.8,
+    "category": "Knives",
+    "stock": 15
+  },
+  {
+    "id": 2,
+    "title": "Digital Kitchen Scale",
+    "description": "Accurate and sleek digital kitchen scale for measuring ingredients with precision. Supports multiple units (grams, oz, lb) and has a tare function. Compact and easy to store.",
+    "image": "https://i.ibb.co.com/tw24hG9L/scale.jpg",
+    "price": 29.99,
+    "rating": 4.6,
+    "category": "Scales",
+    "stock": 22
+  },
+  {
+    "id": 3,
+    "title": "Stainless Steel Cookware Set",
+    "description": "A complete set of stainless steel pots and pans suitable for all stovetops. Durable, non-reactive, and easy to clean. Includes lids and handles designed for safety.",
+    "image": "https://i.ibb.co.com/35x7Mwjd/stainless.jpg",
+    "price": 199.99,
+    "rating": 4.9,
+    "category": "Cookware",
+    "stock": 10
+  },
+  {
+    "id": 4,
+    "title": "Electric Blender Pro",
+    "description": "High-performance electric blender perfect for smoothies, soups, and sauces. Powerful motor, multiple speed settings, and durable blades. Easy to clean and dishwasher safe.",
+    "image": "https://i.ibb.co.com/0pR3QcRT/blender.jpg",
+    "price": 89.99,
+    "rating": 4.7,
+    "category": "Appliances",
+    "stock": 18
+  },
+  {
+    "id": 5,
+    "title": "Non-stick Frying Pan",
+    "description": "Premium non-stick frying pan for effortless cooking and easy cleanup. Compatible with all stovetops. Scratch-resistant and durable coating.",
+    "image": "https://i.ibb.co.com/nqTx5XV0/pan.jpg",
+    "price": 34.99,
+    "rating": 4.5,
+    "category": "Cookware",
+    "stock": 30
+  },
+  {
+    "id": 6,
+    "title": "Wooden Cutting Board",
+    "description": "Eco-friendly and durable wooden cutting board. Ideal for chopping vegetables, fruits, and meat. Large size with juice groove to prevent spills.",
+    "image": "https://i.ibb.co.com/GfNWbjp0/woden.jpg",
+    "price": 24.99,
+    "rating": 4.6,
+    "category": "Utensils",
+    "stock": 25
+  },
+  {
+    "id": 7,
+    "title": "Stainless Steel Measuring Cups",
+    "description": "Set of 6 stainless steel measuring cups. Durable, rust-resistant, and easy to clean. Perfect for precise baking and cooking.",
+    "image": "https://i.ibb.co.com/fdMsqqDC/cup.jpg",
+    "price": 14.99,
+    "rating": 4.4,
+    "category": "Utensils",
+    "stock": 40
+  },
+  {
+    "id": 8,
+    "title": "Glass Mixing Bowls Set",
+    "description": "Set of 5 durable glass mixing bowls. Microwave and dishwasher safe. Nesting design saves space in the kitchen.",
+    "image": "https://i.ibb.co.com/Pvx65C9g/mix.jpg",
+    "price": 39.99,
+    "rating": 4.7,
+    "category": "Utensils",
+    "stock": 20
+  },
+  {
+    "id": 9,
+    "title": "Electric Coffee Grinder",
+    "description": "Grind fresh coffee beans to perfection with this electric grinder. Adjustable grind settings and easy to clean. Compact design fits any kitchen counter.",
+    "image": "https://i.ibb.co.com/C3KB6FD7/coffe.jpg",
+    "price": 49.99,
+    "rating": 4.5,
+    "category": "Appliances",
+    "stock": 12
+  },
+  {
+    "id": 10,
+    "title": "Silicone Baking Mat",
+    "description": "Non-stick silicone baking mat for perfect baking results. Reusable and easy to clean. Heat-resistant up to 480°F.",
+    "image": "https://i.ibb.co.com/KxqVzgrg/silicon.jpg",
+    "price": 19.99,
+    "rating": 4.6,
+    "category": "Bakeware",
+    "stock": 35
+  },
+  {
+    "id": 11,
+    "title": "Precision Kitchen Timer",
+    "description": "Digital kitchen timer with loud alarm and countdown/up function. Compact design fits in hand or can stand on counter. Helps perfect your cooking timings.",
+    "image": "https://i.ibb.co.com/My63VPqV/tim-er.jpg",
+    "price": 12.99,
+    "rating": 4.4,
+    "category": "Gadgets",
+    "stock": 28
+  },
+  {
+    "id": 12,
+    "title": "Cast Iron Skillet",
+    "description": "Heavy-duty cast iron skillet for searing, baking, and frying. Pre-seasoned for non-stick cooking. Lasts generations with proper care.",
+    "image": "https://i.ibb.co.com/zV2CLx3B/cast.jpg",
+    "price": 59.99,
+    "rating": 4.8,
+    "category": "Cookware",
+    "stock": 14
+  },
+  {
+    "id": 13,
+    "title": "Vegetable Spiralizer",
+    "description": "Turn vegetables into noodles with this easy-to-use spiralizer. Perfect for healthy pasta alternatives. Dishwasher safe for easy cleaning.",
+    "image": "https://i.ibb.co.com/kszRXzZp/veg.jpg",
+    "price": 29.99,
+    "rating": 4.5,
+    "category": "Utensils",
+    "stock": 22
+  },
+  {
+    "id": 14,
+    "title": "Reusable Food Storage Bags",
+    "description": "Eco-friendly reusable silicone food storage bags. Leakproof, durable, and freezer safe. Perfect for storing leftovers or snacks.",
+    "image": "https://i.ibb.co.com/B568YKP8/bag.jpg",
+    "price": 21.99,
+    "rating": 4.6,
+    "category": "Storage",
+    "stock": 40
+  },
+  {
+    "id": 15,
+    "title": "Electric Kettle",
+    "description": "Fast boiling electric kettle with auto shut-off and boil-dry protection. Sleek design, easy to use, and perfect for tea, coffee, and more.",
+    "image": "https://i.ibb.co.com/VWrMR9Yn/kettle.jpg",
+    "price": 39.99,
+    "rating": 4.7,
+    "category": "Appliances",
+    "stock": 16
+  },
+  {
+    "id": 16,
+    "title": "Non-stick Baking Pan",
+    "description": "High-quality non-stick baking pan for cakes, breads, and brownies. Even heat distribution and easy release.",
+    "image": "https://i.ibb.co.com/WvRs010W/baking.jpg",
+    "price": 27.99,
+    "rating": 4.5,
+    "category": "Bakeware",
+    "stock": 20
+  },
+  {
+    "id": 17,
+    "title": "Oil Sprayer Bottle",
+    "description": "Refillable oil sprayer for cooking, grilling, and salad dressing. Fine mist spray, BPA-free, easy to clean.",
+    "image": "https://i.ibb.co.com/cKdXmj8Q/oil.jpg",
+    "price": 15.99,
+    "rating": 4.4,
+    "category": "Gadgets",
+    "stock": 50
+  },
+  {
+    "id": 18,
+    "title": "Adjustable Rolling Pin",
+    "description": "Wooden rolling pin with adjustable thickness rings. Ideal for dough, pastries, and pizza. Smooth and easy to use.",
+    "image": "https://i.ibb.co.com/W4NmzH5g/rool.jpg",
+    "price": 22.99,
+    "rating": 4.6,
+    "category": "Utensils",
+    "stock": 18
+  },
+  {
+    "id": 19,
+    "title": "Digital Food Thermometer",
+    "description": "Instant-read digital thermometer for meats, baking, and liquids. Easy to use and accurate readings every time.",
+    "image": "https://i.ibb.co.com/bgc1PLb0/ther.jpg",
+    "price": 18.99,
+    "rating": 4.7,
+    "category": "Gadgets",
+    "stock": 35
+  },
+  {
+    "id": 20,
+    "title": "Premium Non-stick Wok",
+    "description": "Deep non-stick wok perfect for stir-fry, steaming, and more. Heat evenly and easy to clean. Durable coating for long-term use.",
+    "image": "https://i.ibb.co.com/hJ97pH28/wok.jpg",
+    "price": 49.99,
+    "rating": 4.8,
+    "category": "Cookware",
+    "stock": 12
+  }
+]
