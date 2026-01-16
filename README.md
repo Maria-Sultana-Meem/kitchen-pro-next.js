@@ -1,175 +1,91 @@
-# KitchenPro - Premium Kitchen Tools Web App
+# 🍳 KitchenPro – Kitchen Items Management App
 
-## Project Description
-KitchenPro is a modern, responsive web application for showcasing and selling premium kitchen tools. It’s built with **Next.js (App Router)**, **React**, and **Tailwind CSS**, featuring a mock authentication system, product management, and multiple interactive homepage sections.
+KitchenPro is a modern kitchen items showcase and management web application built with **Next.js**.  
+The project focuses on clean UI, client-side authentication (mock login), protected routes, and a smooth user experience.
 
 ---
 
-## Setup & Installation
+## 🚀 Live Demo
+👉 https://kitchen-pro-nextjs-task.vercel.app/
 
-1. **Clone the repository**
+---
+
+## 📌 Project Description
+
+KitchenPro allows users to:
+- Browse premium kitchen items
+- View item details
+- Add new items (protected route)
+- Login using mock authentication
+- Experience a responsive, user-friendly interface
+
+The project is built mainly for learning **Next.js App Router, client components, routing, pagination, cookies-based authentication, and UI structuring**.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Next.js (App Router)**
+- **React**
+- **Tailwind CSS**
+- **JavaScript**
+- **js-cookie**
+- **react-hot-toast**
+- **React Icons**
+
+---
+
+## ⚙️ Setup & Installation
+
+Follow these steps to run the project locally:
+
 ```bash
-git clone https://github.com/yourusername/kitchenpro.git
+# 1. Clone the repository
+git clone https://github.com/Maria-Sultana-Meem/kitchen-pro-next.js.git
+
+# 2. Go to project folder
 cd kitchenpro
-Install dependencies
 
-bash
-Copy code
+# 3. Install dependencies
 npm install
-# or
-yarn install
-Run the development server
 
-bash
-Copy code
+# 4. Run the development server
 npm run dev
-# or
-yarn dev
-Open your browser at:
 
-arduino
-Copy code
-http://localhost:3000
-Routes Summary
-Route	Description	Access
-/	Homepage with hero, featured items, how it works, testimonials, why choose us, FAQ	Public
-/items	All products with search and pagination	Public
-/items/[id]	Individual product details page	Public
-/add-item	Add new product (protected)	Protected
-/login	Login page for mock authentication	Public
-/about	About page	Public
+✨ Implemented Features
 
-Features & Sections
-1. Homepage Sections
-Hero Slider
+✅ Responsive Navbar with Login / Logout
 
-Full-width animated background images with overlay text.
+✅ Mock authentication using cookies
 
-CTA button directs to items page.
+✅ Protected Add Item route
 
-Built using Swiper.js.
+✅ Items page with pagination
 
-Screenshot:
-![Hero Slider](./screenshots/hero.png)
+✅ Item details page
 
-Featured Items
+✅ Toast notifications for actions
 
-Grid of 8 latest items.
+✅ Clean UI using Tailwind CSS
 
-Each card displays image, title, description, price, rating, and a "View Details" button.
+✅ Mobile-friendly design
 
-Screenshot:
-![Featured Items](./screenshots/featured-items.png)
+✅ About page with team section
 
-How It Works
+🧠 Feature Explanation (Short)
 
-4-step illustrated workflow with icons.
-
-Screenshot:
-![How It Works](./screenshots/how-it-works.png)
-
-Testimonials
-
-Carousel of user reviews with avatar, rating, and text.
-
-Built with Swiper.js.
-
-Screenshot:
-![Testimonials](./screenshots/testimonials.png)
-
-Why Choose Us
-
-Grid of 6 visually appealing cards highlighting benefits.
-
-Screenshot:
-![Why Choose Us](./screenshots/why-choose-us.png)
-
-FAQ
-
-Accordion-style FAQ section.
-
-Screenshot:
-![FAQ](./screenshots/faq.png)
-
-2. Items Page
-Displays all products from items.json.
-
-Pagination (8 items per page) and search by title.
-
-Cards similar to homepage featured items.
-
-Screenshot:
-![Items Page](./screenshots/items-page.png)
-
-3. Item Details Page
-Shows product image at the top, with text section at the bottom.
-
-Title, description, price, rating, and action buttons with toast notifications.
-
-Screenshot:
-![Item Details](./screenshots/item-details.png)
-
-4. Add Item Page (Protected)
-Accessible only to logged-in users.
-
-Form for adding a new item: title, description, price, rating, image URL.
-
-Success toast on submission.
-
-Screenshot:
-![Add Item](./screenshots/add-item.png)
-
-5. Authentication (Mock)
-Hardcoded credentials:
+Mock Login:
+Hardcoded email & password are matched and stored in cookies.
+Login Credentials:
 
 Email: user@example.com
-
 Password: 123456
 
-Stores login state in a cookie for 1 day.
+Protected Route:
+Add Item page checks authentication before rendering.
 
-Navbar updates dynamically: shows Login/Logout buttons.
+Pagination:
+Items page displays items in chunks for better UX.
 
-Logout clears cookie and redirects to homepage.
-
-Screenshot:
-![Login Page](./screenshots/login.png)
-
-6. Navbar
-Responsive with hamburger menu for mobile.
-
-Shows links and Login/Logout based on authentication status.
-
-Screenshot:
-![Navbar](./screenshots/navbar.png)
-
-7. Footer
-Includes social icons (real colors), quick links, customer service.
-
-Screenshot:
-![Footer](./screenshots/footer.png)
-
-Tech Stack
-Next.js 13/16 (App Router)
-
-React
-
-Tailwind CSS
-
-Swiper.js (for carousels)
-
-React Hot Toast (notifications)
-
-js-cookie (for mock authentication)
-
-React Icons (UI icons)
-
-Notes
-All interactive components use client-side rendering.
-
-Mock authentication is for demonstration; replace with real auth (NextAuth.js or custom backend) for production.
-
-Cookie expires in 1 day; users must login again after expiry.
-
-Designed for mobile-first, responsive layouts.
-
+Navbar State:
+Navbar dynamically updates Login / Logout based on cookie state.
